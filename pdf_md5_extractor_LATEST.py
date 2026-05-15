@@ -750,10 +750,10 @@ class HashExtractorApp:
                     continue
 
                 base = item["base"]
-                candidate = f"{base}.txt"
+                candidate = f"{base}_uniquehashes.txt"
                 counter = 2
                 while candidate.lower() in used_names:
-                    candidate = f"{base}_{counter}.txt"
+                    candidate = f"{base}_{counter}_uniquehashes.txt"
                     counter += 1
                 used_names.add(candidate.lower())
 
