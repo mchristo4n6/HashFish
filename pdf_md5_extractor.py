@@ -1,5 +1,6 @@
 """
 PDF MD5 Hash Extractor
+SHA256: 61310e642e25f54ffbcc518bbc143ff8871f83a24769a4899f468d20fc9e605b
 ----------------------
 Scans folders and/or archive files for PDFs, extracts every 32-character hex
 string (MD5 hash) that stands alone (surrounded by whitespace), and writes:
