@@ -1,4 +1,3 @@
-"""
 PDF MD5 Hash Extractor
 ----------------------
 Scans folders and/or archive files for PDFs, extracts every 32-character hex
@@ -22,4 +21,3 @@ Dependencies:
     Optional (for additional archive formats):
         pip install py7zr      # for .7z
         pip install rarfile    # for .rar (also requires the 'unrar' system tool)
-"""
